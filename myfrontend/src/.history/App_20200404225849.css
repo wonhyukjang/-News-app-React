@@ -1,0 +1,293 @@
+.App {
+  text-align: left;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.css-1pcexqc-container, .css-1pcexqc-container {
+  width: 250px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.card-body {
+  padding: 1.5rem;
+}
+#detailImg {
+  width:100%;
+  padding:20px;
+}
+#badge {
+  float:right;
+}
+.titles {
+  padding-top:20px;
+  padding-left:20px;
+  padding-right: 20px;
+}
+.description {
+  padding: 20px;
+}
+.short_Desc {
+  padding: 20px;
+}
+#dropdown {
+  font-size:35px;
+  float: right;
+  padding: 20px;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.col-12 mt-3 {
+  cursor: pointer;
+}
+.col-4 text-left p-0 {
+  font-size: 15px;
+}
+#shareText {
+  text-align: center;
+}
+.badge-secondary{
+  background-color: darkcyan;
+}
+.badge-success {
+  background-color: pink;
+}
+.badge-danger {
+  background-color: yellow;
+}
+.badge-warning {
+  background-color: orange;
+}
+.bg-primary{
+  background-color: #09258f !important;
+}
+.badge-light {
+  background-color: rgb(8, 88, 88);
+}
+.custom-control custom-switch {
+  margin-top:10px;
+  margin-left:10px;
+}
+/* .row {
+  cursor: pointer;
+} */
+.img-square-wrapper{
+  margin:10px
+}
+.card-img-top {
+  padding: 10px;
+  border: 1px solid rgb(197, 193, 193);
+  border-radius: 5px;
+}
+#NY_Times, #Guardians{
+  color:white;
+  font-size: 20px;
+}
+#NY_Times {
+  margin-right: 5px;
+}
+.cardImg {
+  padding: 2px;
+  border: 1px solid rgb(199, 186, 186);
+  border-radius: 5px;   
+  margin:0px;  
+  position: relative;
+  width: 90%;
+  margin-left:20px;
+
+}
+.custom-dialog {
+  top:5% !important;
+}
+.favoriteCard{
+  width: 70%;
+  margin: 20px;
+}
+#Guardians {
+  color:white;
+}
+.card-img-border {
+  width:100%;
+  object-fit:cover;
+}
+.badge {
+  display: flex;  
+  flex-wrap: wrap;
+  margin-bottom: 2px;
+}
+.card-horizontal {
+  display: flex;
+  flex: 1 1 auto;
+}
+.bookmark {
+  color: grey;
+  position: relative;
+}
+.custom-switch {
+  padding-left:2px;
+  padding-top:8px;
+}
+.App-link {
+  color: #61dafb;
+}
+.card-title{
+  padding-top: 6px;
+  line-height: 1.5rem;
+  margin-left: 10px;
+}
+.card-date {
+  margin-left:10px
+}
+.card-text{
+    /* hide text if it more than N lines  */
+    overflow: hidden;
+    /* for set '...' in absolute position */
+    position: relative; 
+    /* use this value to count block height */
+    line-height: 1.2em;
+    /* max-height = line-height (1.2) * lines max number (3) */
+    max-height: 3.6em; 
+    /* fix problem when last visible word doesn't adjoin right side  */
+    text-align: justify;  
+    /* place for '...' */
+    margin-right: -1em;
+    padding-right: 1em;
+    margin-left:10px
+}
+.card-text:before {
+  /* points in the end */
+  content: '...';
+  /* absolute position */
+  position: absolute;
+  /* set position to right bottom corner of block */
+  right: 0;
+  bottom: 0;
+}
+/* hide ... if we have text, which is less than or equal to max lines */
+.card-text:after {
+  /* points in the end */
+  content: '';
+  /* absolute position */
+  position: absolute;
+  /* set position to right bottom corner of text */
+  right: 0;
+  /* set width and height */
+  width: 1em;
+  height: 1em;
+  margin-top: 0.2em;
+  /* bg color = bg color under block */
+  background: white;
+}
+.card-columns{
+  column-count: 4;
+}
+.card-columns .card, .card {
+  /* width:95%; */
+  cursor:pointer;
+}
+
+@media screen and (max-width: 1040px) {
+  .card-horizontal {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+  .card-columns{
+    column-count: 1;
+  }
+  .cardImg {
+    width:300px;
+  }
+  
+}
+.favoriteCard {
+  width: 80%;
+}
+.sweet-loading {
+  /* height: 10em;
+  position: relative; */
+  display: flex;
+  align-items: center;
+}
+iframe{
+  height:500px
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: rgb(255, 255, 255);
+}
+.bookmarkTop {
+  color: white;
+}
+.newsType {
+  margin:20px;
+}
+.section {
+  margin: 0px 20px;
+}
+.css-1pcexqc-container {
+  min-width: 250px;
+}
+.toaster {
+  color: black;
+}
+.navbar {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.react-switch-bg {
+  width:40px !important;
+  margin-right: 10px !important;
+}
+.react-switch-handle{
+  background: white !important;
+  width: 22px !important;
+
+  height: 22px !important;
+
+  margin-top: 3px;
+
+  margin-left: 2px;
+
+}
+.card-body {
+  padding: 0px;
+  padding-left: 1.3rem;
+  padding-right: 1.3rem;
+}
+#description, #description2 {
+  padding: 20px;
+}
+span#badge.tech.badge{
+  color: #000 !important;
+  background-color: #00FF00 !important;
+}
+
+span#badge.sports.badge{
+  color: #000 !important;
+  background-color: #fb3 !important;
+}
+span#badge.times.badge{
+  background-color: #ad8086 !important;
+  color: #FFF !important
+}
