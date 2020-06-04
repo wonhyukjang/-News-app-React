@@ -9,8 +9,8 @@ Project repository of News React App
 - Amazon Web Services/Google Cloud App Engine/Microsoft Azure.
 - APIs (Guardian News API, New York Times API, Comment - boxAPI, Bing Autosuggest API)
 
-# Demonstration
-![](Demo.gif)
+# [Demo] (Click Image for the demonstration)
+#### [![Demo](https://github.com/wonhyukjang/-News-app-React/blob/master/Demo.png)](https://www.youtube.com/watch?v=IowBaIi6fjE&t=5s)
 
 # High Level Description
 
